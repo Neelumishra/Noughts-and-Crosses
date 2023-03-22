@@ -1,0 +1,27 @@
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #a4ec45;
+ 
+}
+
+.board-container{
+  margin: 20px;
+  
+}
+
+.Reset{
+  margin: 12px;
+  border: none;
+  background-color: #a4ec45;
+  color: red;
+  width:30%;
+  height:20px;
+ 
+}
+
+.Title{
+  color: rgb(202, 11, 11);
+  text-align: center;
+}
+
