@@ -37,7 +37,7 @@ export default function App() {
   // let array=[x,null,null]
   return (
     <div className="board-container">
-      { isWinner ? ( 
+      { isWinner ? (
         < div className="Title">  {isWinner} won the Game
         <button className="Reset" onClick={()=>setState(Array(9).fill(null))}> Play Again</button>
         </div>
@@ -60,6 +60,7 @@ export default function App() {
             <Square onClick={() => handleClick(7)} value={state[7]} />
             <Square onClick={() => handleClick(8)} value={state[8]} />
           </div>
+          <button className="Reset" onClick={()=>setState(Array(9).fill(null))}> Play Again</button>
         </>
       )}
     </div>
